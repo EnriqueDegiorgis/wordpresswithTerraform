@@ -3,19 +3,19 @@
 variable "access_key" {
     type = string
     description = "AWS Access Key"
-    default = "AKIA4LMAMWHUJPRQUORA"
+    default = "your_acces_key"
 }
 
 ########  AWS SECRET KEY ########
 variable "secret_key" {
     type = string
     description = "AWS Secret Key"
-    default = "ABuqQhWvsv1mB+UnkALu0yj6BnRwM6dNogQwKf4b"
+    default = "your_secret_key"
 }
 
 ########  AWS REGION ########
 variable "region" {
     type = string
     description = "AWS Region"
-    default = "us-west-2"
+    default = "your_desired_region"
 }
