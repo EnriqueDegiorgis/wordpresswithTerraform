@@ -2,13 +2,13 @@
 
 # Descrizione
 
-In questo repo ci sono delle istruzioni per creare una nuova applicazione che andrà live il
+<p>In questo repo ci sono delle istruzioni per creare una nuova applicazione che andrà live il
 mese prossimo!
-In questo repo c'è il codigo per configurare wordpress utilizzando l'infrastruttura AWS. Utilizziamo terraform per il provisioning dell'infrastruttura. Il codice utilizza e crea i seguenti servizi AWS.
+In questo repo c'è il codigo per configurare wordpress utilizzando l'infrastruttura AWS. Utilizziamo terraform per il provisioning dell'infrastruttura. Il codice utilizza e crea i seguenti servizi AWS.</p>
 
-EC2 instance
-Autoscaling group
-VPC - Subnets
+EC2 instance\
+Autoscaling group\
+VPC - Subnets\
 .............
 
 # Requisiti
