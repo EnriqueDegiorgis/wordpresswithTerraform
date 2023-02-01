@@ -8,28 +8,28 @@ In questo repo c'è il codigo per configurare wordpress utilizzando l'infrastrut
 
 - EC2 instance\
 - Autoscaling group\
-- VPC - Subnets\
+- VPC - Subnets
 .............
 
 # Requisiti
 Conto AWS\
 AWS Cli\
 Terminal\
-Terraform installato\
+Terraform installato
 
 # Iniziare
-cd /to/your/project/root/parent/directory\
-git clone https://github.com/EnriqueDegiorgis/wordpresswithTerraform.git\
+cd /to/your/project/root/parent/directory \
+git clone https://github.com/EnriqueDegiorgis/wordpresswithTerraform.git \
 cd wordpresswithTerraform\
 Modificare le variabili nel file root vars.tf in base alle proprie esigenze. Ad esempio: variabile di regione\
 terraform init
 
 # Execute
 terraform plan\
-terraform apply\
+terraform apply
 
 # Terminate
-When you are all done remove all the created resources using\
+Quando hai finito, rimuovi tutte le risorse create usando\
 terraform destroy
 
 ## Authors
